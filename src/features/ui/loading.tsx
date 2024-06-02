@@ -9,5 +9,5 @@ interface Props {
 export const LoadingIndicator: FC<Props> = (props) => {
   if (!props.isLoading) return null;
 
-  return <Loader className={cn("animate-spin")} size={18} />;
+  return <Loader className={cn("animate-spin")} size={24} />;
 };
