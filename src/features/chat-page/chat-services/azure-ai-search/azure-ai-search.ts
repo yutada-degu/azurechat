@@ -162,18 +162,18 @@ export const ExtensionSimilaritySearch = async (props: {
       };
 
       // exclude the all the fields that are not in the fields array
-      const document = item.document as any;
-      const newDocument: any = {};
-
+   //   const document = item.document as any;
+   //   const newDocument: any = {};
+//
       // iterate over the object entries in document
       // and only include the fields that are in the fields array
-
-      for (const key in document) {
-        const hasKey = vectors.includes(key);
-        if (!hasKey) {
-          newDocument[key] = document[key];
-        }
-      }
+//
+//      for (const key in document) {
+ //       const hasKey = vectors.includes(key);
+ //       if (!hasKey) {
+ //         newDocument[key] = document[key];
+ //       }
+//      }
 
       results.push({
         score: result.score,
