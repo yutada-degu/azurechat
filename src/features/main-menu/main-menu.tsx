@@ -57,9 +57,9 @@ export const MainMenu = async () => {
             </MenuLink>
           </MenuItem>
 
-                    <MenuItem tooltip="prompts">
-            <MenuLink href="https://isiglobal000.sharepoint.com/sites/faqbeta_byUser/SitePages/%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88%E3%83%AC%E3%82%B7%E3%83%94%E9%9B%86.aspx" ariaLabel="Go to the Prompt Library configuration page">
-              <Sun size={18} />
+                    <MenuItem tooltip="Prompt Recipe">
+            <MenuLink href="https://isiglobal000.sharepoint.com/sites/faqbeta_byUser/SitePages/%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88%E3%83%AC%E3%82%B7%E3%83%94%E9%9B%86.aspx" target="_blank" ariaLabel="Go to the Prompt Library configuration page">
+              <Sun size={20} />
             </MenuLink>
           </MenuItem>
           {user.isAdmin && (
