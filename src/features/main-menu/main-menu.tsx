@@ -13,6 +13,9 @@ import {
   PocketKnife,
   Sheet,
   VenetianMask,
+  Sun,
+  Moon,
+  Laptop2,
 } from "lucide-react";
 import { getCurrentUser } from "../auth-page/helpers";
 import { MenuLink } from "./menu-link";
@@ -56,7 +59,7 @@ export const MainMenu = async () => {
 
                     <MenuItem tooltip="prompts">
             <MenuLink href="https://isiglobal000.sharepoint.com/sites/faqbeta_byUser/SitePages/%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88%E3%83%AC%E3%82%B7%E3%83%94%E9%9B%86.aspx" ariaLabel="Go to the Prompt Library configuration page">
-              <at-sign-circle.svg />
+              <Sun size={18} />
             </MenuLink>
           </MenuItem>
           {user.isAdmin && (
