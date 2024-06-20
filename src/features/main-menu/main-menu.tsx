@@ -53,6 +53,12 @@ export const MainMenu = async () => {
               <Book {...menuIconProps} />
             </MenuLink>
           </MenuItem>
+          <MenuItem tooltip="Recipe">
+            <MenuLink href="https://isiglobal000.sharepoint.com/sites/faqbeta_byUser/SitePages/%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88%E3%83%AC%E3%82%B7%E3%83%94%E9%9B%86.aspx" ariaLabel="Go to the Prompt Library configuration page">
+              <ImageIcon {...menuIconProps} />
+            </MenuLink>
+          </MenuItem>
+          
           {user.isAdmin && (
             <>
               <MenuItem tooltip="reporting">
